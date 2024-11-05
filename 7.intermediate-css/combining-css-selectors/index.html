@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cobining CSS Styles</title>
+</head>
+
+<body>
+    <h1>To Do List</h1>
+    <h2>Monday</h2>
+    <div class="box">
+        <p class="done">Do these things today!</p>
+        <ul class="list">
+            <li>Wash Clothes</li>
+            <li class="done">Read</li>
+            <li class="done">Maths Questions</li>
+        </ul>
+    </div>
+
+    <ul>
+        <p class="done">Other items</p>
+    </ul>
+    <p>The best preparation for tomorrow is doing your best today.</p>
+
+    <hr>
+
+    <!-- Child explanation: -->
+    <div>
+        <h3>Child</h3>
+        <p>selector > selector { ... } </p>
+        <p>parent > child { ... } </p>
+    </div>
+
+    <hr>
+
+    <!-- Descendant explanation: -->
+    <div>
+        <h3>Descendant</h3>
+        <p>selector selector { ... }</p>
+        <p>ascestor descendant { ... }</p>
+    </div>
+
+    <hr>
+
+    <!-- Chaining explanation: -->
+    <div>
+        <h3>Chaining => Aplly where ALL selector are true</h3>
+        <p>selectorselector { ... }</p>
+        <p>Always start with the element</p>
+    </div>
+
+    <hr>
+
+    <!-- Combining combiners explanation: -->
+    <div>
+        <h3>Combining Combiners</h3>
+        <p>selector selectorselector { ... }</p>
+    </div>
+</body>
+
+</html>
