@@ -1,0 +1,22 @@
+.blue-box {
+  position: relative;
+  background-color: blue;
+  width: 500px;
+  height: 300px;
+  left: 200px;
+  top: 200px;
+}
+
+.red-circle {
+  position: absolute;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  left: 250px;
+  top: 150px;
+}
+
+.class-notes {
+  position: absolute;
+}
