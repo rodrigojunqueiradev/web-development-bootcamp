@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 200px 400px;
+  grid-template-columns: 200px minmax(400px, 800px);
+  /* grid-template: grid-template-rows / grid-template-columns */
+}
+
+.grid-item {
+  font-size: 2rem;
+  height: 1fr;
+  width: 1fr;
+  background-color: peru;
+  margin: 1px;
+}

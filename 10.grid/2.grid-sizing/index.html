@@ -4,11 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Grid Sizing</title>
 </head>
 
 <body>
+    <h1>Grid Sizing</h1>
+    <p>How to size columns and rows</p>
 
+    <hr>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+    </div>
+
+    <hr>
+    <p>grid-template-rows: 100px 200px;</p>
+    <p>grid-template-columns: 100px 200px;</p>
+    <p>or</p>
+    <p>grid-template-rows: 1fr 2fr;</p>
+    <p>grid-template-columns: 1fr 2fr;</p>
+    <p>or</p>
+    <p>grid-template: grid-template-rows / grid-template-columns;</p>
+    <p>or</p>
+    <p>grid-template-rows: repeat(2, 100px);</p>
+    <p>grid-template-columns: repeat(2, 200px);</p>
+    <p>or</p>
+    <p>grid-template-rows: 200px 400px;</p>
+    <p>grid-template-columns: 200px minmax(400px, 800px);</p>
 </body>
 
 </html>
